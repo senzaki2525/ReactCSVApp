@@ -25,7 +25,7 @@ export default function App() {
       <Title />
       <CSVReader
         cssClass="react-csv-input"
-        label="Select CSV with secret Death Star statistics"
+        label="CSVファイルを選んでください"
         onFileLoaded={handleForce}
         parserOptions={papaparseOptions}
       />
