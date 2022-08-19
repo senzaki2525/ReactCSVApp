@@ -8,6 +8,11 @@
   ],
   "main": "src/index.js",
   "dependencies": {
+    "@aws-amplify/ui-react": "^3.4.1",
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "@mui/material": "^5.10.1",
+    "aws-amplify": "^4.3.32",
     "prop-types": "15.8.1",
     "react": "18.0.0",
     "react-csv-reader": "3.5.0",
