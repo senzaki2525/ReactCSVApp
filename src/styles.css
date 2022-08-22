@@ -3,9 +3,14 @@
   text-align: center;
 }
 
+body {
+  background-color: #fffaf0;
+}
 * {
   box-sizing: border-box;
   font-family: "Helvetica", sans-serif;
+  margin: 0px;
+  padding: 0px;
 }
 
 .container {
@@ -17,12 +22,44 @@
 .csv-input {
   padding: 10px;
   display: block;
-  margin: 15px auto;
-  border: 1px solid #ccc;
+  margin: 25px auto;
+  border: 1px solid rgb(61, 57, 114);
   border-radius: 5px;
+  background-color: white;
+}
+
+.csv-label {
+  font-weight: bold;
 }
 
 .container p {
   padding-top: 10px;
   color: #666;
+}
+
+#header {
+  height: 125px;
+  padding: 40px;
+  margin-bottom: 30px;
+  background-color: #0076a8;
+}
+
+.title {
+  color: white;
+}
+
+table {
+  margin: auto;
+  margin-top: 3%;
+  background-color: white;
+  border-collapse: collapse;
+}
+
+.table td {
+  padding: 5px;
+}
+.table th {
+  border: solid 1px;
+  padding: 5px;
+  background-color: #0076a8;
 }

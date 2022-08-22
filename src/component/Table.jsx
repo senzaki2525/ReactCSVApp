@@ -9,12 +9,12 @@ export default function Table(props) {
 
   return (
     <div className="table">
-      <h2>データを読み込みました</h2>
+      <h2>データの読み込みが完了しました</h2>
       <table border="1">
         <thead>
           <tr>
             {arr.map((key, index) => {
-              return <th>{key}</th>;
+              return <th><font color="white">{key}</font></th>;
             })}
           </tr>
         </thead>
