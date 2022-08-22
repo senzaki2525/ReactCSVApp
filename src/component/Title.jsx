@@ -3,7 +3,7 @@ export default function Title() {
     <header id="header">
       <div className="wrapper">
         <div className="title">
-          <h1>CSS読み込み表示アプリ</h1>
+          <h1>CSV読み込み表示アプリ</h1>
         </div>
       </div>
     </header>
